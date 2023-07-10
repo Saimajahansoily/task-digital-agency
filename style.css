@@ -20,4 +20,38 @@
 .banner-container{
     height: 100vh;
     background-image: url("./asset/image/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.primary{
+    color: rgba(219, 98, 29, 0.932);
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.discription{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+
+}
+
+.btn{
+    padding:12px 20px ;
+    border: none;
+}
+
+.bg-primary{
+    background-color: rgb(255, 106, 0);
+    color: white;
 }
